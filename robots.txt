@@ -1,0 +1,35 @@
+# robots.txt for FreidorasDobleCesta.es
+# AEO / GEO Optimization & AI Crawler Friendly Configuration
+
+User-agent: *
+Allow: /
+Disallow: /aviso-legal.html
+Disallow: /cookies.html
+Disallow: /privacidad.html
+
+# AI Engine & LLM Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://freidorasdoblecesta.es/sitemap.xml
